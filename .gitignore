@@ -1,0 +1,14 @@
+# binari e risorse pesanti (restano sulla chiavetta, non nel repo)
+*.exe
+*.syso
+resources/softwares/*
+!resources/softwares/config.xml
+resources/xtmp/*
+!resources/xtmp/Client/
+resources/xtmp/Client/*
+!resources/xtmp/Client/installa.bat.example
+logs/
+
+# config reale (chiave Office, admin di dominio): resta solo in locale/chiavetta.
+# schema pubblico in resources/config.example.json
+resources/config.json

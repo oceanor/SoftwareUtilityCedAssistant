@@ -1,0 +1,14 @@
+<Configuration Product="ProPlus">
+  <!-- Product deve coincidere con Setup Id in proplus.ww\setup.xml dell'ISO (volume = ProPlus, retail = ProPlusr) -->
+  <!-- Installazione completamente silenziosa -->
+  <Display Level="None" CompletionNotice="No" SuppressModal="Yes" AcceptEula="Yes" />
+  
+  <!-- Non riavviare automaticamente dopo l'installazione -->
+  <Setting Id="SETUP_REBOOT" Value="Never" />
+  
+  <!-- Attivazione automatica (se la chiave e valida) -->
+  <Setting Id="AUTO_ACTIVATE" Value="1" />
+  
+  <!-- Disabilita aggiornamenti automatici (gestiti da WSUS/SCCM) -->
+  <Setting Id="HIDEUPDATEUI" Value="True" />
+</Configuration>

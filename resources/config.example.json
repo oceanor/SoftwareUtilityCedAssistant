@@ -1,0 +1,102 @@
+{
+  "office_iso": "office2016pro.iso",
+  "office_key": "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX",
+  "domain_name": "example.local",
+  "domain_admin_user": "admin-utente",
+  "softwares": [
+    {
+      "name": "Google Chrome",
+      "files": [
+        "EndpointVerification_2.0.3.msi",
+        "LegacyBrowserSupport_8.1.0.0_en_x64.msi",
+        "GoogleChromeStandaloneEnterprise64.msi"
+      ],
+      "checked": true
+    },
+    {
+      "name": "7-Zip",
+      "files": [
+        "7z2408-x64.msi"
+      ],
+      "checked": true
+    },
+    {
+      "name": "Notepad++",
+      "files": [
+        "npp.8.9.8.1.Installer.x64.msi"
+      ],
+      "checked": false
+    },
+    {
+      "name": "Mozilla Firefox",
+      "files": [
+        "Firefox Setup145.0.2.msi"
+      ],
+      "checked": false
+    }
+  ],
+  "bloatware": [
+    "Microsoft.3DBuilder",
+    "Microsoft.BingFinance",
+    "Microsoft.BingNews",
+    "Microsoft.BingSports",
+    "Microsoft.BingWeather",
+    "Microsoft.GetHelp",
+    "Microsoft.Getstarted",
+    "Microsoft.Messaging",
+    "Microsoft.Microsoft3DViewer",
+    "Microsoft.MicrosoftSolitaireCollection",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.MixedReality.Portal",
+    "Microsoft.NetworkSpeedTest",
+    "Microsoft.Office.OneNote",
+    "Microsoft.People",
+    "Microsoft.Print3D",
+    "Microsoft.SkypeApp",
+    "Microsoft.Todos",
+    "Microsoft.WindowsAlarms",
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.WindowsMaps",
+    "Microsoft.WindowsSoundRecorder",
+    "Microsoft.YourPhone",
+    "Microsoft.ZuneMusic",
+    "Microsoft.ZuneVideo",
+    "MicrosoftTeams",
+    "Netflix",
+    "McAfee",
+    "SpotifyAB.SpotifyMusic",
+    "TikTok",
+    "Disney",
+    "Amazon",
+    "Facebook",
+    "Twitter",
+    "Instagram",
+    "king.com.CandyCrushSaga",
+    "king.com.CandyCrushSodaSaga",
+    "Microsoft.WindowsCommunicationsApps",
+    "Microsoft.Xbox.TCUI",
+    "Microsoft.XboxGameOverlay",
+    "Microsoft.XboxGamingOverlay",
+    "Microsoft.XboxSpeechToTextOverlay",
+    "Microsoft.GamingApp",
+    "Microsoft.Clipchamp",
+    "Clipchamp.Clipchamp",
+    "Microsoft.PowerAutomateDesktop",
+    "Microsoft.OutlookForWindows",
+    "Microsoft.BingTranslator",
+    "Microsoft.Wallet",
+    "5319275A.WhatsAppDesktop",
+    "BytedancePte.Ltd.TikTok",
+    "DuolingoInc.DuolingoforWindows",
+    "AdobeSystemsIncorporated.AdobePhotoshopExpress"
+  ],
+  "shortcuts": [
+    {
+      "title": "Generica",
+      "items": [
+        { "label": "Intranet", "url": "https://intranet.example.local/", "checked": true },
+        { "label": "Webmail", "url": "https://webmail.example.local/", "checked": true }
+      ]
+    }
+  ]
+}

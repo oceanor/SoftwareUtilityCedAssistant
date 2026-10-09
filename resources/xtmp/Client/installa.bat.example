@@ -1,0 +1,1 @@
+ccmsetup.exe FSP=sccm SMSMP=sccm.example.local SMSSLP=sccm SMSCACHESIZE=1000 CCMLOGMAXHISTORY=2 SMSSITECODE=XXX DNSSUFFIX=example.local CMCERTSEL=example.local
